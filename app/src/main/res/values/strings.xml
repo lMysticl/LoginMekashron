@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestMekashron</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="log_in">log in</string>
+    <string name="successfull">Success!</string>
+    <string name="error">Error!</string>
+</resources>
