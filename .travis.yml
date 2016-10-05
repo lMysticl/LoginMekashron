@@ -1,12 +1,12 @@
-language: java
-
-sudo: required
-
-jdk:
-  - oraclejdk8
-
-install: true
-
-script:
-  - sudo apt-get update && sudo apt-get install oracle-java8-installer
-  - java -version
+language: android
+android:
+  components:
+    - build-tools-24.0.2
+    - android-M
+    - sys-img-x86-android-tv-l
+    - add-on
+    - extra
+  licenses:
+    - 'android-sdk-preview-license-52d11cd2'
+    - 'android-sdk-license-.+'
+    - 'google-gdk-license-.+'
